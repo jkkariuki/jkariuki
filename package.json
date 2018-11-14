@@ -1,0 +1,31 @@
+{
+  "name": "jkk",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "build": "node scripts/build.js",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "installDeps": "yarn && cd client && yarn",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.11.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "2.1.0"
+
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.11.0"
+  }
+}

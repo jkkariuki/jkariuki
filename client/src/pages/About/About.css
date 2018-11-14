@@ -1,0 +1,61 @@
+body{
+    background: black;
+}
+#imageDiv{
+    max-width: 100%;
+    height: 765px;
+    margin-right:auto;
+    margin-left:auto;
+    background-size: cover;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: 5px bold;
+    background-image: url("../../images/profileImage.jpg");
+    background-position: center; 
+
+}
+
+#aboutContainer{
+    
+    background-color: #efedef;
+    padding-left: 0px;
+    padding-right: 15px;
+    height: 100%x
+    
+}
+
+#aboutMe{
+
+     color: #4c4947 
+}
+
+#nav a h1{
+    color: #222022
+}
+
+#aboutContainer {
+    -webkit-animation: flip 3.0s;
+    animation: flip 3.0s;
+  }
+  @-webkit-keyframes flip {
+    from {
+      transform: rotateY(90deg)
+    }
+    to {
+      transform: rotateY(0deg)
+    }
+  }
+  @keyframes flip {
+    from {
+      transform: rotateY(180deg)
+    }
+    to {
+      transform: rotateY(0deg)
+    }
+  }
+
+#nav{
+    display:inline-block !important;
+    float: right;
+}

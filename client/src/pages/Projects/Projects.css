@@ -1,0 +1,108 @@
+#projectContainer{
+    max-width: 100%;
+    height:695px;
+    margin-right:auto;
+    margin-left:auto;
+    background-size: cover;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222022 
+}
+
+.appDescription{
+  
+    font-size: 12px;
+}
+
+#GAMRid{
+    background-image: url("../../images/GAMR.png");
+    height: 200px;
+    background-size: cover;
+    background-position: center; 
+
+}
+
+p{
+    margin: 65px 50px
+}
+
+#GAMRrow{
+    background-color: #efedef;
+    height: 200px;
+    color: #4c4947;
+}
+
+#Savorid{
+    background-image: url("../../images/Savor.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center; 
+
+}
+
+#SavorRow{
+    background-color: #4c4947;
+    color: #efedef;
+    height: 200px;
+}
+
+#NYTid{
+    background-image: url("../../images/NYT.png");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#NYTrow{
+    background-color: #efedef;
+    height: 200px;
+    color:#4c4947
+
+}
+.col-savor{
+padding: 0%
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  #slideFromLeft {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 2.5s ease-out 0s 1 slideInFromLeft;
+    margin-bottom: 20px;
+    
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  #slideFromRight {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 2.5s ease-out 0s 1 slideInFromRight;
+    margin-bottom: 20px
+    
+  }
+
+
+
+#slideFromLeft:hover{
+    transition: all 1s ease-in-out; 
+    transform: scale(1.1); 
+}
+
+#slideFromRight:hover{
+    transition: all 1s ease-in-out; 
+    transform: scale(1.1); 
+}

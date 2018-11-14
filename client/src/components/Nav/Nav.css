@@ -1,0 +1,23 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+  }
+
+  .dropdown.show{
+    text-align: right;
+  }
+
+  #dropdownMenuLink{
+
+    size: 40px;
+  }
+
+  .dropdown-item{
+    color: white;
+  }
+
+  .dropup, .dropdown {
+    position: relative;
+    text-align: right;
+    
+}
+
