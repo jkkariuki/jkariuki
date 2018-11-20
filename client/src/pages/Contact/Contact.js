@@ -60,21 +60,7 @@ class Contact extends React.Component {
     return (
       <Container style={{ background: "#4c4947" }} fluid >
         <Nav/>
-        <Row id="fadeIn">
-          <Col size="md-12  sm-12">
-          <div>
-            <div className="icon"><i className="devicon-react-original-wordmark"></i></div>
-          <div className="icon"><i className="devicon-javascript-plain"></i></div>
-          <div className="icon"><i class="devicon-mongodb-plain-wordmark colored"></i></div>
-          <div className="icon"><i class="devicon-nodejs-plain-wordmark"></i></div>
-          <div className="icon"><i class="devicon-html5-plain-wordmark"></i></div>
-          <div className="icon"><i class="devicon-css3-plain-wordmark colored"></i></div>
-          <div className="icon"><i class="devicon-bootstrap-plain-wordmark colored"></i></div>
-          <div className="icon"><i class="devicon-mysql-plain-wordmark"></i></div>
-          </div>
-
-          </Col>
-        </Row>
+       
         <Row id="fadeIn">
         <Col size="md-4  sm-12">
         </Col>

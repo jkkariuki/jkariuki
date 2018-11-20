@@ -20,8 +20,8 @@ class Nav extends React.Component {
           </button>
         </Link>
 
-        <div style={{ background: "none", fontSize: "20px" }} className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <div>
+        <div style={{ background: "none", fontSize: "20px", backgroundColor: "black" }} className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <div >
             <Link style={{ color: "white" }} className={window.location.pathname === "/" ||
               window.location.pathname === "/about"
               ? "active"
