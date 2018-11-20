@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Services from "./pages/Services";
 
 
 
@@ -18,6 +19,8 @@ const App = () =>
     <Route exact path="/about" component={About}/>
     <Route exact path="/contact" component={Contact} />
     <Route exact path="/portfolio" component={Projects} />
+    <Route exact path="/services" component={Services} />
+
     </Switch>
 
     

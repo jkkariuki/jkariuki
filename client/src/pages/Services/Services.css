@@ -1,0 +1,43 @@
+#servicesContainer{
+    background-color:  #efefef;
+}
+
+/* #serviceDescriptor{
+    margin: 60px 200px;
+}; */
+
+#frontEndcard{
+    width: 300px
+}
+
+.card-body{
+    position: relative;
+}
+
+#cardBody2{
+    position: relative;
+    
+   
+}
+
+.card-image-top{
+background-color:  #222022
+}
+
+.icon{
+    font-size: 75px;
+    margin: auto 15px;
+    height: 55px;
+    display: inline-block;
+    
+ }
+
+ body{
+     background-color: #efefef
+ }
+
+ #nav a h1{
+    color: #6ead3a;
+    display: block
+ }
+ 
