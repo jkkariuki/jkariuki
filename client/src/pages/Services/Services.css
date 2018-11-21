@@ -38,6 +38,18 @@ background-color:  #222022
 
  #nav a h1{
     color: #6ead3a;
-    display: block
+ }
+
+ #nav{
+     display: block
  }
  
+ #servicesHeader{
+     background-color: #efefef;
+     margin-bottom: 25px
+ }
+
+ #footDiv{
+    background-color: #efefef;
+   
+}

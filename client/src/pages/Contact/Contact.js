@@ -58,14 +58,15 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <Container style={{ background: "#4c4947" }} fluid >
+      <div id="mainContainer"> 
+      <Container id="contactContainer" fluid >
         <Nav/>
        
         <Row id="fadeIn">
         <Col size="md-4  sm-12">
         </Col>
           <Col size="md-4  sm-12">
-          <h1 style={{ color: "#6ead3a" }}>Let's Work Together...</h1>
+          <strong><h1 style={{ color: "white" }}>Let's Work Together...</h1></strong>
 
 
             <Input value={this.state.firstName} onChange={this.handleInputChange}
@@ -100,6 +101,7 @@ class Contact extends React.Component {
           
         </Row>
       </Container>
+      </div>
     )
   }
 }

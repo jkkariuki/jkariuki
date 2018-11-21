@@ -9,7 +9,7 @@ class Nav extends React.Component {
   render() {
     const { id, style } = this.props
     return (
-      < div id={id} className="dropdown show" >
+      < div id={id}  className="dropdown show" >
         <Link style={{style, display:"inline-block"}} to="/" ><h1 style={style}>JK</h1></Link>
 
         <Link style={{ style }} className="btn btn-secondary  dropdown-toggle" to="/" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

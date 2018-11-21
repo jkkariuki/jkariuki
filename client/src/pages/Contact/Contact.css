@@ -1,3 +1,12 @@
+
+/* body { 
+    background: url("../../images/collaboration.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
 .icon{
    font-size: 75px;
    margin: auto 15px;
@@ -6,7 +15,58 @@
    
 }
 
+#mainContainer {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/collaboration.png");
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+  }
+  #mainContainer:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background: rgba(0,0,0,0.25);
+  }
+
+/* #mainContainer{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("../../images/collaboration.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 
+   -moz-animation: fadein 3s; /* Firefox < 16 
+    -ms-animation: fadein 3s; /* Internet Explorer 
+     -o-animation: fadein 3s; /* Opera < 12.1 
+        animation: fadein 3s;
+    } 
+ */
+/* #contactContainer{
+    
+    
+
+} */
+
 #fadeIn{
+    /* background: url("../../images/collaboration.png") no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 3s; /* Firefox < 16 */
     -ms-animation: fadein 3s; /* Internet Explorer */
