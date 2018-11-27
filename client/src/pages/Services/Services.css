@@ -1,5 +1,23 @@
 #servicesContainer{
     background-color:  #efefef;
+    -webkit-animation: flips 2.0s;
+    animation: flips 2.0s;
+  }
+  @-webkit-keyframes flips {
+    from {
+      transform: rotateX(90deg)
+    }
+    to {
+      transform: rotateX(0deg)
+    }
+  }
+  @keyframes flips {
+    from {
+      transform: rotateX(180deg)
+    }
+    to {
+      transform: rotateX(0deg)
+    }
 }
 
 /* #serviceDescriptor{
@@ -54,3 +72,4 @@ background-color:  #222022
     padding-top: 10px;
    
 }
+
