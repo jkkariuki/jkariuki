@@ -4,8 +4,8 @@ import { Input, TextArea, FormBtn } from "../../components/Form";
 import API from "../../utils/API";
 import Nav from "../../components/Nav/"
 import "./Contact.css";
-import linkedin from "../../images/linkedin.png"
-import github from "../../images/github.png"
+import linkedin from "../../images/linkedinWhite.png"
+import github from "../../images/githubwhite.png"
 import { Link, Redirect } from "react-router-dom";
 
 
@@ -94,7 +94,7 @@ class Contact extends React.Component {
           <div>
             
             <a target="_blank" href={"http://www.linkedin.com/in/james-kariuki"}><img className="icon" src={linkedin}/></a>
-            <a target="_blank" href={"http://www.linkedin.com/in/james-kariuki"}><img className="icon" src={github}/></a>
+            <a target="_blank" href={"https://github.com/jkkariuki"}><img className="icon" src={github}/></a>
 
           </div>
           </Col>
