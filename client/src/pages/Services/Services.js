@@ -20,7 +20,7 @@ const Services = () =>
                     <h1 style={{ color: "#6ead3a" }}> Services</h1>
                     <div >
                         <p id="serviceDescriptor">
-                            Interdum et malesuada fames ac ante ipsum primis in faucibus. In tempor vitae diam ac efficitur. Fusce tristique condimentum vestibulum.
+                        Whether you’re in need of a simple javascript website to get your business online, an ecommerce website, or an interactive application, I can help you bring your vision to life.
                         </p>
                     </div>
                 </Col>

@@ -31,7 +31,13 @@ body{
 }
 
 #nav a h1{
-    color: #222022
+    color: #222022;
+
+}
+
+h1{
+  display:inline-block 
+
 }
 
 #aboutContainer {
