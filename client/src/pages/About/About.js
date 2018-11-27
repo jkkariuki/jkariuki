@@ -9,7 +9,7 @@ const About = () =>
     <Container id={"aboutContainer"} fluid >
             <Nav id={"nav"} />
 
-        <Row  style={{ backgroundColor: "green" }}>
+        <Row style={{ backgroundColor: "green" }}>
 
 
 

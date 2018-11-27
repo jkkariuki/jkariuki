@@ -1,10 +1,17 @@
 import React from "react";
 import PropTypes from 'prop-types';
-
+import $ from "jquery";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
 class Nav extends React.Component {
+
+  componentDidMount = () =>{
+    $("#dropdownMenuLink").click(function(){
+      $(".dropdown-menu").slideToggle();
+  });
+  }
+
 
   render() {
     const { id, style } = this.props
@@ -22,19 +29,19 @@ class Nav extends React.Component {
 
         <div style={{ background: "none", fontSize: "20px", backgroundColor: "black" }} className="dropdown-menu" aria-labelledby="dropdownMenuLink">
           <div >
-            <Link style={{ color: "white" }} className={window.location.pathname === "/" ||
+            <Link style={{ color: "white", marginLeft: "10px" }} className={window.location.pathname === "/" ||
               window.location.pathname === "/about"
               ? "active"
               : "dropdown-item"} to="/about">About</Link>
           </div>
           <div>
-            <Link style={{ color: "white" }} className={window.location.pathname === "/" ||
+            <Link style={{ color: "white", marginLeft: "10px" }} className={window.location.pathname === "/" ||
               window.location.pathname === "/portfolio"
               ? "active"
               : "dropdown-item"} to="/portfolio">Portfolio</Link>
           </div>
           <div>
-            <Link style={{ color: "white" }} className={window.location.pathname === "/" ||
+            <Link style={{ color: "white", marginLeft: "10px" }} className={window.location.pathname === "/" ||
               window.location.pathname === "/contact"
               ? "active"
               : "dropdown-item"} to="/contact">Contact</Link>

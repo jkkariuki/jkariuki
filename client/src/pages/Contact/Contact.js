@@ -91,7 +91,7 @@ class Contact extends React.Component {
           </Col>
           <Col size="md-12  sm-12" >
           
-          <div>
+          <div style={{marginBottom:"15px"}}>
             
             <a target="_blank" href={"http://www.linkedin.com/in/james-kariuki"}><img className="icon" src={linkedin}/></a>
             <a target="_blank" href={"https://github.com/jkkariuki"}><img className="icon" src={github}/></a>
