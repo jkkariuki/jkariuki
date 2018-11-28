@@ -83,7 +83,7 @@ class Contact extends React.Component {
 
             <TextArea style={{height: "200px"}} value={this.state.message} onChange={this.handleInputChange}
             name="message"
-            placeholder="How can I help you"/>
+            placeholder="How can I help you?"/>
 
             <FormBtn disabled={!(this.state.firstName && this.state.lastName && this.state.email)} onClick={this.handleFormSubmit}>Submit</FormBtn>
           </Col>
