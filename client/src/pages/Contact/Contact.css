@@ -16,6 +16,7 @@
 }
 
 #mainContainer {
+    height:710px;
     position: relative;
     background-position: top center;
     background-repeat: no-repeat;

@@ -11,12 +11,13 @@ const Home = () =>
             <Row>
                 <Col size="md-12 sm-12">
 
-                    <h1 style={{ fontSize: "7em", color: "white" }}>James Kariuki</h1>
+                    <h2 style={{ fontSize: "4em", color: "white" }}>Let's Build Something Today!</h2>
+                    <h2 style={{ fontSize: "3em", color: "white" }}>If Not Now, then When?</h2>
                 </Col>
 
                 <Col size="md-12 sm-12">
-                    <h1 style={{ color: "white" }}>Looking for a Web Developer?</h1>
-                    <h1 style={{ color: "white" }}>You've come to the right place.  Click here to view my work!</h1>
+                    <h2 style={{ color: "white", marginRight:"3px", fontSize: "2em" }}>If Not You, then Who?</h2>
+                    
                 </Col>
 
             </Row>

@@ -20,9 +20,11 @@
     }
 }
 
-/* #serviceDescriptor{
-    margin: 60px 200px;
-}; */
+#serviceDescriptor{
+    font-size: 17px;
+    margin: 40px 50px;
+    color: #efefef;
+}
 
 #frontEndcard{
     width: 300px
@@ -58,14 +60,19 @@ background-color:  #222022
     color: #6ead3a;
  }
 
+ h1{
+     font-size: 35px;
+ }
+
  #nav{
      display: block
  }
  
  #servicesHeader{
-     background-color: #efefef;
-     margin-bottom: 25px
+     background-color: #4c4947;
+     margin-bottom: 25px;
  }
+
 
  #footDiv{
     background-color: #efefef;

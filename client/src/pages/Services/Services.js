@@ -13,14 +13,15 @@ const Services = () =>
 
     <div>
     <Nav id="nav" />
-    <Container id={"servicesContainer"} style={{ marginTop: "0%", backgroundColor: "#4c4947" }} fluid>
-        <div style={{ backgroundColor: "#4c4947" }}>
+    <Container id={"servicesContainer"} style={{ marginTop: "0%", backgroundColor: "#efefef" }} fluid>
+        <div style={{ backgroundColor: "#efefef" }}>
             <Row  >
                 <Col id="servicesHeader" size="md-12 sm-12">
-                    <h1 style={{ color: "#6ead3a" }}> Services</h1>
-                    <div >
+                <div >
+
+                    <h1 style={{ color: "#6ead3a", fontSize: "50px" }}> What I Do</h1>
                         <p id="serviceDescriptor">
-                        Whether you’re in need of a simple javascript website to get your business online, an ecommerce website, or an interactive application, I can help you bring your vision to life.
+                        I build fast, responsive, user-friendly, dynamic websites and applications. This means no dealing with lag, access across devices, plus intuitive and interactive designs...Pretty much an all around good time! <Link to="/portfolio"> Click here</Link> to check out my work.   
                         </p>
                     </div>
                 </Col>
@@ -43,7 +44,7 @@ const Services = () =>
                     </div>
                 </Col>
                 <Col size="md-6 sm-6">
-                    <div class="card" style={{ width: "350px", height: "400px", margin: "0px auto", marginBottom: "100px" }}>
+                    <div class="card" style={{ width: "350px", height: "400px", margin: "0px auto", marginBottom: "75px" }}>
                         <img class="card-img-top" src={Backend} style={{ width: "100%", height: "150px", margin: "0px auto" }} alt="Card image" />
                         <div id="cardBody2" class="card-body">
                             <h4 style={{ textAlign: "center" }} class="card-title">Backend</h4>
